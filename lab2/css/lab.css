@@ -1,9 +1,39 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
+h1 {
+  color: white;
+  font: size 150%;
+  background-color: rgb(0, 136, 255);
+  border:solid 2px white;
+  width: 500px;
+  min-height: 100px;
+  text-align:center;
+}
+h2 {
+  color: white;
+  font: size 150%;
+}
 
+p{
+  font-family: "Arial, Helvetica, sans-serif";
+  color: white;
+  text-indent:30px;
+  background-color: rgb(0, 136, 255);
+  border:solid 2px white;
+  width: 500px;
+}
+#content{
+  background-color: rgb(0, 136, 255);
+  width: 600px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border:solid 4px black;
+  font-size: 30px;
+} 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px navy;
+    background-color: rgb(116, 202, 242);
   }
