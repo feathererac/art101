@@ -1,6 +1,8 @@
 /* this css file will only style the homepage of our site */
 
 .selfie {
-  margin: 10px;
-  max-width: 500px;
+  float: left; 
+  margin: 10px 20px 10px 0; 
+  max-width: 400px; 
+  height: auto; 
 }

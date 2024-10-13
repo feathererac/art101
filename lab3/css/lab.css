@@ -14,13 +14,20 @@ img#img1 {
   border-color: rgb(94, 45, 193);
 }
 
-p{
+h1{
+  text-indent: 30px;
   font-size: 30px;
   font-style: normal;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-p.lab3p {
+p{
+  text-indent:30px;
+  font-size: 20px;
+  padding-left: 65px;
+  padding-right: 65px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1.lab3p {
   font-size: 40px;
   font-style: normal;
   text-align: center;
