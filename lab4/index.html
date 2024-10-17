@@ -27,49 +27,49 @@
 		<p>It was hard to plan everything out at once. My Saint and I helped each other out 
 			and fixed issues we saw that didn't make sense for a pseudocode for the snake game.
 		</p>
-		<h1>Problems</h1>
+		<h1>Problems:</h1>
 		<p>For this lab, we only had problems when we were attempting to pseudocode a game. We had a lot of ideas, 
 			but settled on pseudocoding the classic snake game. We had to figure out how to explain the loss condition 
 			and the scoring of points but through some back and forth we got to a satisfactory explanation.</p>
 		<h1>Results:</h1>
 		<p>This is the Pseudocode I made for the snake game:</p>
 		<pre><code>
-			//Sprites.
+			//Sprites:
   				//Set up the player sprite in idle mode.
   				//Set up the AI sprite in idle mode.
 
-			//Print player map.
+			//Print player map:
   				//Lay out barriers such as walls.
 
-			//Print player UI.
-			//Lay out scores in the top left corner.
+			//Print player UI:
+				//Lay out scores in the top left corner.
 
-			//Accept/Validate player movement.
-			//Accept player movements of moving left, right, up, and down when keys are pressed.
-				//Bind left, right, up, and down animation to those keys.
-			//Set player movement speed at a fixed amount.
+			//Accept/Validate player movement:
+				//Accept player movements of moving left, right, up, and down when keys are pressed.
+					//Bind left, right, up, and down animation to those keys.
+				//Set player movement speed at a fixed amount.
 
-			//Spawn new items/sprites over time
-			//Set up a timer
-			//Loop items drop at random positions over fixed periods of time.
-				//Continue spawning new items/sprites until the player hits the wall, themselves, or they cannot continue.
+			//Spawn new items/sprites over time:
+				//Set up a timer
+				//Loop items drop at random positions over fixed periods of time.
+					//Continue spawning new items/sprites until the player hits the wall, themselves, or they cannot continue.
 			//AI:
-			//Sprites move randomly.
-				//Bind sprite left, right, up, and down animation to AI's movements.
-			//Sprites move at a fixed amount of speed.
-			//Sprites cannot move out of the boundary of walls.
+				//Sprites move randomly.
+					//Bind sprite left, right, up, and down animation to AI's movements.
+				//Sprites move at a fixed amount of speed.
+				//Sprites cannot move out of the boundary of walls.
 
-			//Elongate player avatar.
-			//If the player attains an item/sprite, the player elongates by 1 block.
-			//The item/sprite disappears after colliding with the player.
+			//Elongate player avatar:
+				//If the player attains an item/sprite, the player elongates by 1 block.
+				//The item/sprite disappears after colliding with the player.
 
-			//Test score/loss condition. 
-			//Collision detections overall:
-				//Set up collision detection between the player and the sprite.
-				//Set up collision detection between walls and the player.
-				//Set up collision detection when the player collides with themselves.
-			//Score: The player hits an item/sprite and gains 1 point.
-			//Lose: The player hits a wall or themselves. 
+			//Test score/loss condition: 
+				//Collision detections overall:
+					//Set up collision detection between the player and the sprite.
+					//Set up collision detection between walls and the player.
+					//Set up collision detection when the player collides with themselves.
+				//Score: The player hits an item/sprite and gains 1 point.
+				//Lose: The player hits a wall or themselves. 
 		</code></pre>
 
 		<div class="centered-container">
