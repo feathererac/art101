@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab 12: Conditionals</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="./js/lab.js" defer></script>
+</head>
+<body>
+  <h1 class="labp">Lab 12: Conditionals</h1>
+
+<!-- Hogwarts Welcome Section -->
+<div id="hogwarts-box">
+    <h2>Welcome to Hogwarts</h2>
+    <p>Please enter your name to be sorted into your house:</p>
+    
+    <!-- Input field and button -->
+    <p><input type="text" id="name-input" placeholder="Enter your name"></p>
+    <p><button id="submit">Get sorted!</button></p>
+
+    <!-- Output section for displaying results -->
+    <div id="output"></div>
+  </div>
+
+  <div id="challenge" class="sections">
+    <h1>Challenges:</h1>
+    <p>Create a function that removes spaces from a string and determines its length.</p>
+	<p>Use conditional statements to assign different outcomes based on a calculated value.</p>
+  </div>
+
+  <div id="problems" class="sections">
+    <h1>Problems:</h1>
+    <p>Ensuring spaces are removed from the name before calculating the length for accurate sorting results.</p>
+	<p>Troubleshooting JavaScript selectors to make sure the input field and button are correctly linked to the click event listener.</p>
+	<p>Handling cases where no name is entered, or where special characters might affect the length calculation.</p>
+	<p>Styling the dynamic output so it appears consistently and correctly formatted for each house color.</p>
+  </div>
+
+  <div id="results" class="sections">
+    <h1>Results:</h1>
+    <p>It works! Successfully implemented the sortingHat function to sort users into houses based on name length.</p>
+	<p>The output dynamically displays the user's assigned house and a short description.</p>
+	<p>The interface now provides a welcoming, interactive experience with consistent styles and animations.</p>
+  </div>
+
+  <p class="centered-container">
+    <button id="home-button">Back to homepage</button>
+  </p>
+</body>
+</html>
