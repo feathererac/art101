@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab 15: AJAX PokeAPI</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="./js/lab.js" defer></script>
+</head>
+<body>
+  <h1 class="labp">Lab 15: AJAX PokeAPI</h1>
+
+  <div id="challenge" class="sections">
+    <h1>Challenges:</h1>
+    <p>
+      The most challenging part about this lab is finding out what does what on the Pokemon API website. 
+      The website was great, but there was too much information to go through, very complicated.
+    </p>
+  </div>
+
+  <div id="problems" class="sections">
+    <h1>Problems:</h1>
+    <p>
+      I was generating random Pokemon based on the total Pokemon count, but the website doesn't have all 
+      the ones working for some reason. It was 1302 when I made the API return all the Pokemon, but according 
+      to ChatGPT, the number included something that is not part of real Pokemon, which the actual count of total 
+      Pokemon is 1025 under this "https://pokeapi.co/api/v2/pokedex/national/"
+    </p>
+  </div>
+
+  <div id="results" class="sections">
+    <h1>Results:</h1>
+    <P>
+      It works!!!!
+    </P>
+  </div> 
+  <h1 class="centered-container">Random Pokémon Generator</h1>
+  <p class="centered-container">
+    <button id="generate">Generate Random Pokémon</button>
+    <div class="pokemon">
+      <h2 id="name"></h2>
+      <img id="sprite" src="" alt="" />
+      <p id="type"></p>
+    </div>
+  </p>
+  <script src="./js/lab.js"></script>
+
+  <p class="centered-container">
+    <button id="home-button">Back to homepage</button>
+  </p>
+</body>
+</html>
