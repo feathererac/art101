@@ -42,8 +42,8 @@ h1.labp {
   font-style: normal;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-bottom: 3px solid rgb(94, 45, 193);
-  border-top: 3px solid rgb(94, 45, 193);
+  border-bottom: 3px solid #5c577e;
+  border-top: 3px solid #5c577e;
   padding-top: 20px; 
   padding-bottom: 20px; 
   margin-bottom: 30px; 
@@ -71,6 +71,12 @@ img {
   margin-top: 10px;
 }
 
+#output img {
+  width: 260;
+  height: auto;
+  margin-top: 10px;
+}
+
 #type {
   font-size: 18px;
   text-align: center;
@@ -86,6 +92,8 @@ button{
 }
 
 #output {
+  text-align: center;
+  margin-top: 20px;
   background-color: #5c577e; 
   border: 1px solid #5c577e; 
   border-radius: 10px;
