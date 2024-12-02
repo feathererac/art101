@@ -6,14 +6,19 @@ License: Public Domain
 */
 
 const xkcdUrl = 'https://xkcd.com/info.0.json';
-// Update proxyUrl if using your own proxy or the demo server
+//proxyUrl
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+
+$('#grant-access').click(function () {
+  // Redirect user to the CORS Anywhere demo page
+  window.open('https://cors-anywhere.herokuapp.com/corsdemo', '_blank');
+});
 
 $('#generate').click(function () {
     $.ajax({
         url: proxyUrl + xkcdUrl, // Proxying the XKCD API request
         type: "GET",
-        dataType: "json", // Expecting JSON response
+        dataType: "json", 
         success: function (comicObj) {
             // Extract the title, image URL, and alt text
             const title = comicObj.title;
